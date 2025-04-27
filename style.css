@@ -1,16 +1,77 @@
-#update-form { display: none;}
+#h2,
+#update-form {
+    display: none;
+}
 
-#h2 { display: none;}
+form {
+    margin-bottom: 1rem;
+}
 
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.rem;
+    margin-bottom: 0.6rem;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
 
 #book-table {
     border-collapse: collapse;
     width: 100%;
+    margin-top: 1rem;
 }
-#book-table th, #book-table td {
+#book-table th, 
+#book-table td {
     border: 1px solid #ccc;
+    padding: 0.rem;
 }
 #book-table th {
     background: #f0f0f0;
     text-align: left;
+}
+
+#book-table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+#book-table button {
+    margin-right: 0.4rem;
+    padding: 0.3rem 0.6rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#book-table button:first-of-type {
+    background-color: #dc3545;
+}
+
+#book-table button:last-of-type {
+    background-color: #28a745;
+}
+
+#book-table button:hover {
+    opacity: 0.9;
 }
