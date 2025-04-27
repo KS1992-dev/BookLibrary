@@ -1,0 +1,16 @@
+#update-form { display: none;}
+
+#h2 { display: none;}
+
+
+#book-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#book-table th, #book-table td {
+    border: 1px solid #ccc;
+}
+#book-table th {
+    background: #f0f0f0;
+    text-align: left;
+}
